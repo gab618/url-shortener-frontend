@@ -58,6 +58,12 @@ export const Card = styled.div`
       font-weight: 700;
       cursor: pointer;
     }
+
+    > span {
+      color: #fa7394;
+      margin-top: 4px;
+      font-size: 12px;
+    }
   }
 `;
 
