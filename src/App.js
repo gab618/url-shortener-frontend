@@ -1,7 +1,14 @@
 import React from "react";
+import CreateUrl from "./pages/CreateUrl";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <CreateUrl />
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
