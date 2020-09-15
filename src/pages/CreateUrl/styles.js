@@ -65,6 +65,11 @@ export const Card = styled.div`
       font-size: 12px;
     }
   }
+
+  > h3 {
+    margin: 16px auto;
+    color: #474350;
+  }
 `;
 
 export const Logo = styled(FiLink2)`
